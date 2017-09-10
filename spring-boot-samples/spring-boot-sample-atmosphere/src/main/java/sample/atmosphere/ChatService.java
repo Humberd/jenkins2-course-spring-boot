@@ -36,6 +36,7 @@ public class ChatService {
 
 	@Ready
 	public void onReady(final AtmosphereResource resource) {
+		System.out.println("Hello wrom git commit");
 		this.logger.info("Connected", resource.uuid());
 	}
 
