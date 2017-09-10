@@ -36,7 +36,7 @@ public class ChatService {
 
 	@Ready
 	public void onReady(final AtmosphereResource resource) {
-		System.out.println("Hello fWorld! ");
+		System.out.println("Hello fWordsld! ");
 		this.logger.info("Connected", resource.uuid());
 	}
 
